@@ -1,0 +1,24 @@
+syntax = "proto3"; /* default is proto2 */
+
+/* *
+ * If no explicit java_package option is given in the .proto file, then by default the proto package
+ * (specified using the “package” keyword) will be used
+ * */
+option java_package = "proto";
+
+service User {
+
+  rpc GetInfo (InfoRequest) returns (InfoReply) {}
+
+}
+
+message InfoRequest {
+
+  string name=1;
+  string date=2;
+}
+
+/* The response message containing the greetings */
+message InfoReply {
+  string message=1;
+}
