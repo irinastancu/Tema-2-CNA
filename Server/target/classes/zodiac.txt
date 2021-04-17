@@ -1,0 +1,12 @@
+Aquarius:1/21,2/18
+Aries:3/21,4/20
+Taurus:3/21,5/21
+Gemini:5/22,6/21
+Cancer:6/22,7/22
+Leo:7/23,8/22
+Virgo:8/22,9/22
+Libra:9/23,10/22
+Scorpio:10/23,11/21
+Sagittarius:11/22,12/21
+Capricorn:12/22,1/20
+Pisces:2/19,3/20
