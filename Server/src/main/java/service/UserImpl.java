@@ -30,7 +30,8 @@ public class UserImpl extends UserGrpc.UserImplBase {
     public UserImpl() {
         //pathZodiac = getClass().getPackage().getResource("/zodiac.txt").toString();
 
-        this.zodiacSigns = HashMapFromTextFile("C:/Users/Ina/Desktop/Tema2/Server/src/main/resources/zodiac.txt");
+        //TODO Find a better way to give the path name
+        this.zodiacSigns = HashMapFromTextFile("C:/Users/Ina/Desktop/Tema2/Tema-2-CNA/Server/src/main/resources/zodiac.txt");
     }
 
     public static Map<String, Pair<String, String>> HashMapFromTextFile(String pathName) {
